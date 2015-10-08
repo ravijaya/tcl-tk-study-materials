@@ -1,0 +1,10 @@
+Embeddability is one of the most unique aspects of Tcl
+
+Three overall goals for the language:
+
+The language must be extensible: it must be very easy for each application 
+to add its own features to the basic features of the language, and the application-specific features should appear natural, as if they had been designed into the language from the start.
+
+The language must be very simple and generic, so that it can work easily with many different applications and so that it doesn't restrict the features that applications can provide.
+
+Since most of the interesting functionality will come from the application, the primary purpose of the language is to integrate or "glue together" the extensions. Thus the language must have good facilities for integration.
